@@ -14,6 +14,7 @@ Script Purpose:
       -Data Normalization & Standardization
       -Data Enrichment
       -It uses the 'INSET INTO' command to load the data from Bronze layer to the silver (layer) tables.
+	  -{Overall: it transforms and cleans the data from the Bronze layer to Silver layer}
 
 Parameters:
   None.

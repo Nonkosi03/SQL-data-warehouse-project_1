@@ -22,6 +22,7 @@ This stored procedure does not accept any parameters or return any values.
 */
 
 -----CLEANING THE DATA AND LOADING IT INTO THE SILVER LAYER
+
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME;
@@ -237,4 +238,6 @@ BEGIN
 	END CATCH
 END;
 
+-------------------------------------
+--Example to exec the store procedure
 EXEC silver.load_silver;

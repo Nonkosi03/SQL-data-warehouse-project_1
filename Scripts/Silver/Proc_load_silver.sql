@@ -47,7 +47,7 @@ BEGIN
 		cst_key,
 		cst_firstname,
 		cst_lastname, 
-		cst_material_status,
+		cst_marital_status,
 		cst_gndr,
 		cst_create_date
 		)
@@ -56,8 +56,8 @@ BEGIN
 		cst_key, 
 		TRIM(cst_firstname) AS cst_firstname, ---Removed unnecessary spaces to ensure data consistency, and uniformity across all records
 		TRIM(cst_lastname) AS cst_lastname, ------Removed unnecessary spaces to ensure data consistency, and uniformity across all records
-		CASE WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
-			WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single'
+		CASE WHEN UPPER(TRIM(cst_marital_status)) = 'M' THEN 'Married'
+			WHEN UPPER(TRIM(cst_marital_status)) = 'S' THEN 'Single'
 			ELSE 'N/A'
 		END cst_material_status,  ---Normalize marital status values to readable format (DATA NORMALIZATION & STANDARDIZATION-- Maps coded values to meaningful, user-friendly descriptions)
 		CASE WHEN UPPER(TRIM(cst_gndr)) = 'F' THEN 'Female'

@@ -12,6 +12,9 @@ It consist of dimension tables and fact table.
 ### 1. Customer Dimension Table>> gold.dim_customers
  --**Purpose: It stores customers information that consist of their demographic and geographic data.
  --**The Columns are explained below. 
+ - **Bronze Layer**: Raw data ingested from source systems with minimal transformation.  
+- **Silver Layer**: Cleaned, standardized, and joined data ready for analysis.  
+- **Gold Layer**: Curated, aggregated, business-ready data optimized for analytics and reporting.  
 
 | Column Name    | Data Type   | Description                                                                                                    |
 |----------------|-------------|----------------------------------------------------------------------------------------------------------------|

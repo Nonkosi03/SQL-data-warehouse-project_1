@@ -10,11 +10,8 @@ It consist of dimension tables and fact table.
 
 ---
 ### 1. Customer Dimension Table>> gold.dim_customers
- --**Purpose: It stores customers information that consist of their demographic and geographic data.
- --**The Columns are explained below. 
- - **Bronze Layer**: Raw data ingested from source systems with minimal transformation.  
-- **Silver Layer**: Cleaned, standardized, and joined data ready for analysis.  
-- **Gold Layer**: Curated, aggregated, business-ready data optimized for analytics and reporting.  
+ - **Purpose**: It stores customers information that consist of their demographic and geographic data.
+ - **The Columns** are explained below. 
 
 | Column Name    | Data Type   | Description                                                                                                    |
 |----------------|-------------|----------------------------------------------------------------------------------------------------------------|
@@ -30,8 +27,8 @@ It consist of dimension tables and fact table.
 | create_date    | DATE        | Date the customer record was created in CRM.                                                                   |
 ---
 ### 2. Product Dimension Table>> gold.dim_products
- --**Purpose: It provides information about the products and their attributes
- --**The Columns are explained below.
+ - **Purpose**: It provides information about the products and their attributes
+ - **The Columns** are explained below.
 
 | Column Name    | Data Type   | Description                                                                        |
 |----------------|-------------|------------------------------------------------------------------------------------|
@@ -48,8 +45,8 @@ It consist of dimension tables and fact table.
 | start_date     | DATE        | Start date of product availability (active products only, since end date is NULL). |
 ---
 ### 3. Sales Fact Table>> gold.fact_products
- --**Purpose: It stores transactional sales data for analytics
- --**The Columns are explained below.
+ - **Purpose**: It stores transactional sales data for analytics
+ - **The Columns** are explained below.
 
 | Column Name   | Data Type     | Description                                                                 |
 |---------------|--------------|-----------------------------------------------------------------------------|

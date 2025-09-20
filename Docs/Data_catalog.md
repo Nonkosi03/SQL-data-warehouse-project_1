@@ -7,6 +7,7 @@ The Gold layer contains business-ready, curated datasets that are aggregated, st
 Data in this layer is transformed into meaningful metrics and structured in a way 
 that can be easily consumed by business users, data analysts, and BI tools such as Power BI or Tableau.
 It consist of dimension tables and fact table.
+
 ---
 ### 1. Customer Dimension Table>> gold.dim_customers
  **Purpose: It stores customers information that consist of their demographic and geographic data.

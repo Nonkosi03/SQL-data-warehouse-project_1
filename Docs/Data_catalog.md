@@ -46,7 +46,6 @@ It consist of dimension tables and fact table.
 ### 3. Sales Fact Table>> gold.fact_products
  **Purpose: It stores transactional sales data for analytics
  **The Columns are explained below.
- ### Sales Fact Table
 
 | Column Name   | Data Type     | Description                                                                 |
 |---------------|--------------|-----------------------------------------------------------------------------|

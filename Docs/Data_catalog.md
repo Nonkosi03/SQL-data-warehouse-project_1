@@ -1,7 +1,7 @@
 # Data Dictionary for Gold Layer
 ---
 
-### OverView
+## OverView
 ---
 The Gold layer contains business-ready, curated datasets that are aggregated, standardized, and optimized for analytics and reporting. 
 Data in this layer is transformed into meaningful metrics and structured in a way 
